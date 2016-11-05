@@ -1,0 +1,59 @@
+<style>
+
+*{
+  box-sizing: border-box;
+}
+body{
+  font-size: 16px;
+}
+.resaltado {
+    background-color: pink;
+}
+.contenedor-boton{
+  height: 30px;
+  width: 60px;
+  margin: 10px;
+  padding: 5px;
+  border: solid black 1px;
+  text-align: center;
+  box-shadow: 3px 5px 4px blue;
+  box-sizing: border-box;
+}
+.boton{
+  font-size: 10px;
+  line-height: 25px;
+  margin: 0;
+}
+.letra-separada {
+    letter-spacing: 15px;
+    text-shadow: 1px 1px 2px pink; /* Puedo modificar el segundo px a negativo para sarle un estilo copado. modificando el tercer dato hago el difuminado. Actualmente el text shadow se usa mas para colores neon.*/
+}
+.palabras-separadas {
+    word-spacing: 15px;
+    font-size: 12px;
+    line-height: 1em;
+    text-align: justify;
+}
+.principal{
+  height: 400px;
+  /*background: pink;
+  background-image: url(http://2.bp.blogspot.com/-GazZemDWQ5c/T4dPuGHH1aI/AAAAAAAAAXg/9B09kUjRt7E/s1600/Paisaje%252525252520cascada%252525252520-%252525252520www.Biokytec.com.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; /*uso cover para cubrir con la imagen todo el espacio otorgado. o contain otra opcion*/
+  /*background-attachment: fixed; /* te fija la imagen para que se siga viendo aunque bajes*/
+  background: rgb(87, 54, 36)
+  url(/Users/antonellagiurno/Desktop/CODERHOUSE/CLASE2/paisaje.jpg) no-repeat center fixed;
+  background-size: cover;
+}
+
+h1{
+  line-height: 400px;
+  margin: 0;
+  color: #fff;
+  font-size: 25px;
+  text-align: center;
+}
+
+
+< / style >
